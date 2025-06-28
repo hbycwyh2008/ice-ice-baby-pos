@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>purchase</title>
+  <script src="desk.js"></script>
+</head>
+
+<body>
+  <div>
+    charge
+    <div>
+      id
+      <input type="text" id="id">
+    </div>
+    <div>
+      quantity
+      <input type="text" id="quantity">
+    </div>
+    <div>
+      guarantor
+      <input type="text" id="guarantor">
+    </div>
+    <input type="submit"
+      onclick="charge(document.getElementById('id').value,Number(document.getElementById('quantity').value),document.getElementById('guarantor').value);">
+  </div>
+</body>
+</html>

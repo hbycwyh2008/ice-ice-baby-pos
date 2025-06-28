@@ -1,0 +1,494 @@
+#cartButton > .btn-info{
+    position: fixed;
+    bottom:3%;
+    right:5%;
+    border-radius: 15px;
+}
+
+/*menu page*/
+.row>*{
+    padding-right:0px !important;
+}
+.combocard{
+    position:absolute;
+    margin-bottom: 10px;
+    height:110px !important;
+}
+.alacard{
+    position:absolute;
+    height:50px !important;
+    margin-bottom: 10px;
+}
+.combocard > .card-header{/*product name*/
+    font-size: 12px;
+    font-family: 'TTHakgyoansimTtwimteulR';
+    background-color: yellowgreen !important;
+}
+.combocard-title{
+    position:absolute;
+    top:40px;
+}
+.combocard-title > h6{/*product info*/
+    font-size: 12px !important;
+}
+.combocard-text{/*product price*/
+    font-size:10px;
+    position:absolute;
+    top:8px;
+    right:5%;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.alacard-title > h6{/*product name*/
+    font-family: 'TTHakgyoansimTtwimteulR';
+    font-size:12px !important;
+    position:absolute;
+    top:10px;
+}
+.alacard-text{/*product price*/
+    font-size:10px;
+    position:absolute;
+    top:25px;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.combocard > .card-body > .btn-primary,
+.alacard > .card-body > .btn-primary{
+    background-color: orange!important;
+    border-color:yellow !important;
+    position: absolute;
+    right:5%;
+    bottom:5%;
+    font-size: 20px;
+    height:30px;
+    width: 30px;
+    --bs-btn-padding-y:0px;
+    --bs-btn-padding-x:0px;
+}
+.btnala{
+    bottom:15%;
+}
+.menucards{
+    position:absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.category{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 10px;
+    font-family: 'April16th-Life';
+    font-size: 20px;
+}
+.row.row-cols-2{
+    margin-right: 3px;
+}
+@media (max-width:480px){/*작은 화면*/
+    .combocard{
+        height:95px !important;
+    }
+    .alacard{
+        height:50px !important;
+    }
+    .combocard > .card-header{/*product name*/
+        font-size: 9px;
+    }
+    .combocard-title > h6{/*product info*/
+        font-size: 9px !important;
+    }
+    .combocard-text{/*product price*/
+        font-size:8px;
+    }
+    .alacard-title > h6{/*product name*/
+        font-size:8px !important;
+    }
+    .alacard-text{/*product price*/
+        font-size:8px;
+    }
+    .combocard > .card-body > .btn-primary,
+    .alacard > .card-body > .btn-primary{
+        font-size: 15px;
+        height:25px;
+        width: 25px;
+        --bs-btn-padding-y:0px;
+        --bs-btn-padding-x:0px;
+    }
+}
+@media (min-width:1200px){/*큰화면*/
+    .combocard{
+        height:130px !important;
+    }
+    .alacard{
+        height:60px !important;
+    }
+    .combocard > .card-header{/*product name*/
+        font-size: 15px;
+    }
+    .combocard-title > h6{/*product info*/
+        font-size: 15px !important;
+    }
+    .combocard-title{
+        top:45px;
+    }
+    .combocard-text{/*product price*/
+        font-size:15px !important;
+    }
+    .alacard-title > h6{/*product name*/
+        font-size:15px !important;
+    }
+    .alacard-text{/*product price*/
+        top:30px;
+        font-size:15px !important;
+    }
+    .combocard > .card-body > .btn-primary,
+    .alacard > .card-body > .btn-primary{
+        font-size: 25px;
+        height:40px;
+        width: 40px;
+        --bs-btn-padding-y:0px;
+        --bs-btn-padding-x:0px;
+    }
+    .category{
+        font-size: 30px;
+    }
+    #cartButton > .btn-info{
+        font-size: 20px !important;
+        width: 80px;
+    }
+}
+@media (min-height:750px) and (min-width:1000px){/*아이패드화면*/
+    .combocard{
+        height:180px !important;
+    }
+    .alacard{
+        height:80px !important;
+    }
+    .combocard > .card-header{/*product name*/
+        font-size: 20px;
+        height:70px;
+    }
+    .combocard-title > h6{/*product info*/
+        font-size: 20px !important;
+    }
+    .combocard-title{
+        top:80px;
+    }
+    .combocard-text{/*product price*/
+        font-size:20px;
+        margin-top: 25px;
+    }
+    .alacard-title > h6{/*product name*/
+        font-size:18px !important;
+    }
+    .alacard-text{/*product price*/
+        top:40px;
+        font-size:18px;
+    }
+    .combocard > .card-body > .btn-primary,
+    .alacard > .card-body > .btn-primary{
+        font-size: 25px;
+        height:40px;
+        width: 40px;
+        --bs-btn-padding-y:0px;
+        --bs-btn-padding-x:0px;
+    }
+    .category{
+        font-size: 40px;
+    }
+    #cartButton > .btn-info{
+        font-size: 30px !important;
+        width: 120px;
+    }
+}
+@media (min-height:1000px) and (min-width:1000px){/*아이패드큰화면*/
+    .combocard{
+        height:230px !important;
+    }
+    .alacard{
+        height:110px !important;
+    }
+    .combocard > .card-header{/*product name*/
+        font-size: 30px;
+        height:90px;
+    }
+    .combocard-title > h6{/*product info*/
+        font-size: 30px !important;
+    }
+    .combocard-title{
+        top:100px;
+    }
+    .combocard-text{/*product price*/
+        font-size:30px;
+        margin-top: 30px;
+    }
+    .alacard-title > h6{/*product name*/
+        font-size:26px !important;
+        top:15px;
+    }
+    .alacard-text{/*product price*/
+        top:55px;
+        font-size:25px;
+    }
+    .combocard > .card-body > .btn-primary,
+    .alacard > .card-body > .btn-primary{
+        font-size: 35px;
+        height:50px;
+        width: 50px;
+        --bs-btn-padding-y:0px;
+        --bs-btn-padding-x:0px;
+    }
+    .category{
+        font-size: 60px;
+    }
+    #cartButton > .btn-info{
+        font-size: 40px !important;
+        width: 160px;
+    }
+    .offcanvas{
+        width:1000px !important;
+    }
+    .offcanvas-title{
+        font-size: 50px !important;
+    }
+    .offcanvas-price{
+        font-size: 50px;
+        top: 25px !important;
+        right:80px !important;
+    }
+    .offcanvas-header > .btn-close{
+        font-size: 40px;
+    }
+    .combomain > div > h6,
+    .comboala > h6{
+        font-size: 40px;
+    }
+    #alaicecollaspe, #alatopcollaspe,
+    .input-group-text, .form-select, .form-control{
+        font-size: 35px !important;
+    }
+    .accordion-button::after{
+        width: 50px !important;
+        height: 50px !important;
+        background-size: 50px !important;
+    }
+    .offcanvas-body{
+        margin-bottom: 110px !important;
+    }
+    #button{
+        --bs-btn-font-size: 50px !important;
+        height:90px;
+        margin-bottom: 10px;
+    }
+    .modal{
+        --bs-modal-width:1000px !important;
+    }
+    .modal-header > h1, .modal-header,
+    .modal-footer > p{
+        font-size: 30px !important;
+    }
+    .modal-totalPrice{
+        left:120px !important;
+    }
+    .cartcard > .card-header{
+        font-size: 30px;
+    }
+    .cartcard > .card-header > .card-total{
+        right:60px !important;
+    }
+    h5{
+        font-size: 29px !important;
+    }
+    .card-text{
+        font-size: 28px !important;
+    }
+    .modal-footer > .btn{
+        font-size: 25px;
+    }
+    .modal-final, .modal-finalPrice{
+        font-size:30px;
+    }
+    .modal-finalPrice{
+        left:120px !important;
+    }
+}
+
+/*adding menu page*/
+.offcanvas-header{
+    position:static;
+    background-color: chocolate;
+    font-family: 'TTHakgyoansimTtwimteulR';
+}
+.offcanvas-price{
+    position: absolute;
+    top: 20px;
+    right:50px;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.offcanvas{
+    background-color: rgb(246, 204, 19) !important;
+}
+.offcanvas-body{
+    margin-bottom: 60px;
+}
+.comboala{
+    background-color:goldenrod;
+    padding:10px;
+    border-radius: 5px;
+}
+.combomain{
+    background-color:rgb(220, 189, 14);
+    padding:10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/*.flavor > .btn-outline-primary,
+.topping > .btn-outline-primary {
+    background-color:blanchedalmond !important;
+    border-color: black !important;
+    color: black !important;
+}
+
+.flavor > .btn-check:active+.btn-outline-primary, 
+.flavor > .btn-check:checked+.btn-outline-primary, 
+.flavor > .btn-outline-primary.active, 
+.flavor > .btn-outline-primary.dropdown-toggle.show, 
+.flavor > .btn-outline-primary:active,
+.topping > .btn-check:active+.btn-outline-primary, 
+.topping > .btn-check:checked+.btn-outline-primary, 
+.topping > .btn-outline-primary.active, 
+.topping > .btn-outline-primary.dropdown-toggle.show, 
+.topping > .btn-outline-primary:active {
+    color: white !important;
+    background-color:cadetblue !important;
+}*/
+
+/*cart*/
+.addcart{
+    position:absolute;
+    bottom:10px;
+    height:50px;
+    left:15px;
+    right:15px;
+}
+.cartcard{
+    display: flex;
+    font-family: 'KCC-Hanbit';
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cartcard > .card-header{
+    font-family: 'TTHakgyoansimTtwimteulR';
+    background-color: aquamarine;
+}
+.cartcard > .card-header > .btn-close{
+    position:absolute;
+    right:10px;
+}
+.cartcard > .card-header > .card-total{
+    position:absolute;
+    top:8px;
+    right:40px;
+    text-align:right;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.cartcard > .card-body{
+    background-color:mintcream
+}
+.cartcard > .card-body > .card-price{
+    font-family: 'PyeongChangPeace-Bold';
+}
+.modal-total{
+    position:absolute;
+    left:20px;
+    text-align:left;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.modal-totalPrice{
+    position:absolute;
+    left:70px;
+    text-align:left;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.modal-final{
+    position:absolute;
+    left:20px;
+    text-align:left;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.modal-finalPrice{
+    position:absolute;
+    left:70px;
+    text-align:left;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.modal-header{
+    background-color: peru;
+    font-family: 'TTHakgyoansimTtwimteulR';
+}
+.modal-body{
+    background-color:antiquewhite;
+}
+.modal-footer{
+    background-color: pink !important;
+}
+.card-body > .card{
+    margin-bottom:10px;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid{
+    border-color: #dee2e6 !important;
+    padding: .375rem .75rem !important;
+    background-image: none !important;
+}
+
+p.card-price{
+    margin-bottom: 0px;
+}
+
+.modal-id, .modal-idNum{
+    font-size: 50px;
+}
+
+#QRimg{
+    max-width: 90%;
+    width:350px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#id_logo{
+    max-width: 100%;
+}
+.descriptionRow{
+    align-items: center;
+}
+#description{
+    font-size: 30px;
+    background-color: cornsilk;  opacity : 0.7;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.modal-id{
+    position:absolute;
+    left:20px;
+    top:80px;
+    text-align:left;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.modal-idNum{
+    position:absolute;
+    left:100px;
+    top:80px;
+    text-align:left;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.col > .modal-content{
+    height: 200px;
+}

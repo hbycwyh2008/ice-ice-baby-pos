@@ -1,0 +1,6 @@
+/*main page*/
+.poster{
+    display: flex;
+    position:relative;
+    margin-top: 50px;
+}

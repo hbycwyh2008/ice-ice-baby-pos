@@ -1,0 +1,195 @@
+/*.addcart{
+    position:absolute;
+    bottom:10px;
+    height:50px;
+    left:15px;
+    right:15px;
+}
+.modal-total{
+    position:absolute;
+    left:20px;
+    text-align:left;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.modal-totalPrice{
+    position:absolute;
+    left:70px;
+    text-align:left;
+    font-family: 'PyeongChangPeace-Bold';
+}
+
+.modal-footer{
+    background-color: pink !important;
+}
+.card-body > .card{
+    margin-bottom:10px;
+}*/
+@media (max-width:600px){
+    .name{
+        display: none;
+    }
+}
+
+.cartcard{
+    display: flex;
+    font-family: 'KCC-Hanbit';
+}
+.ordered > .card-header, .completed > .card-header, .received > .card-header{
+    background-color:mistyrose !important;
+}
+.ordered > .card-body, .received > .card-body{
+    background-color:cornsilk;
+}
+.cartcard > .card-header{
+    font-family: 'TTHakgyoansimTtwimteulR';
+    background-color: aquamarine;
+}
+.cartcard > .card-header > .btn-close{
+    position:absolute;
+    right:10px;
+}
+.cartcard > .card-header > .card-total{
+    position:absolute;
+    top:8px;
+    right:40px;
+    text-align:right;
+    font-family: 'PyeongChangPeace-Bold';
+}
+.cartcard > .card-body{
+    background-color:mintcream
+}
+.cartcard > .card-body > .card-price{
+    font-family: 'PyeongChangPeace-Bold';
+}
+
+main{
+    justify-content:center;
+}
+.card{
+    width: 100%;
+}
+.ordered, .completed, .received{
+    margin-top:10px;
+    max-width: 900px;
+}
+@media (max-width:990px){
+    .ordered, .completed, .received{
+        max-width: 450px !important;
+    }
+}
+
+.ordered > .card-header{
+    height: 50px;
+}
+.completed > .card-header{
+    height: 65px;
+}
+.received > .card-header{
+    height: 40px;
+}
+.cartcard{
+    max-width: 420px;
+    margin-bottom:10px;
+}
+.card-title{
+    font-size: 14px;
+}
+.card-text{
+    font-size: 13px;
+}
+#infoi{
+    position: absolute;
+    top:15px;
+    left:10px;
+}
+.received > .card-header > #infoi{
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+.completed > .card-header > #infoi{
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-size: 30px;
+}
+#infop{
+    position: absolute;
+    top:15px;
+    left:80px;
+}
+.received > .card-header > #infop{
+    position: absolute;
+    top:10px;
+    left:80px;
+}
+#infod{
+    position: absolute;
+    top:10px;
+    left:150px;
+    font-size: 30px;
+}
+/*#infot{
+    font-size: 10px;
+    position: absolute;
+    top:30px;
+    left:10px;
+}
+.completed > .card-header > #infot{
+    font-size: 10px;
+    position: absolute;
+    top:3px;
+    left:180px;
+}
+.received > .card-header > #infot{
+    font-size: 10px;
+    position: absolute;
+    top:2px;
+    right:4px;
+    left:auto;
+}
+#infot2{
+    font-size: 10px;
+    position: absolute;
+    top:12px;
+    right:5px;
+}
+.completed > .card-header > #infot2{
+    font-size: 10px;
+    position: absolute;
+    top:19px;
+    left:180px;
+}
+#infot3{
+    font-size: 10px;
+    position: absolute;
+    top:23px;
+    right:5px;
+}*/
+#infopaid{
+    position: absolute;
+    right:220px;
+    top:15px;
+    font-size: 12px !important;
+}
+#infocompleted > .btn{
+    font-size: 12px !important;
+}
+#inforeceived > .btn{
+    font-size: 20px !important;
+}
+#infocompleted{
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+#inforeceived{
+    position: absolute;
+    right:10px;
+    top:12px;
+}
+#infodesk{
+    position: absolute;
+    right:100px;
+    top:5px;
+}

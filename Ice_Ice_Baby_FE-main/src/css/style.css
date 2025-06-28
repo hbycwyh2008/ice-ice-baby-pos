@@ -1,0 +1,151 @@
+*{
+    margin: 0px;padding:0 px;
+}
+ul{list-style: none;}
+a{text-decoration: none;}
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}/*header*/
+@font-face {
+    font-family: 'Ownglyph_eunbyul21-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_eunbyul21-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}/*account*/
+@font-face {
+    font-family: 'April16th-Life';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404-2@1.0/April16th-Life.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}/*category*/
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}/*nav*/
+@font-face {
+    font-family: 'TTHakgyoansimTtwimteulR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimTtwimteulR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}/*card title*/
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}/*price*/
+
+/*header*/
+header{
+    height: 60px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid brown;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index:1;
+    font-family: 'SDSamliphopangche_Outline';
+}
+
+/*header*/
+#logo{
+    margin-left:5px;
+}
+.name{
+    color:chocolate;
+    font-size: 18px;
+    font-weight:bold;
+    margin-left:10px;
+}
+
+@media (max-width:380px){
+    .name{
+        display: none;
+    }
+}
+nav{
+    font-size: 12px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 2%;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav li{
+    display: inline;
+    margin-left: 2px;
+}
+/*.nav-pills > */.nav-item > .nav-link{
+    color:brown !important;
+}
+/*.nav-pills > */.nav-item > .active{
+    color: white !important;
+    background-color: brown !important;
+}
+#event > .dropdown-menu,
+#account > .dropdown-menu{
+    background-color: blanchedalmond !important;
+}
+#event > .dropdown-item,
+#account > .dropdown-item{
+    color:brown !important;
+}
+
+:root {
+    --bs-primary: brown;
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.nav-item.dropdown .dropdown-item:active {
+    background-color: brown !important;
+    color: white !important;
+}
+
+/*language, cart button*/
+#floating-button{
+    z-index:1;
+    font-family: 'KCC-Hanbit';
+}
+#langButton{
+    position: fixed;
+    top:65px;
+    right:3%;
+}
+#langButton .btn-secondary{
+    font-size: 13px;
+    padding: 10px;
+}
+
+footer{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    position:absolute;
+    display:flex;
+    top:60px;
+    left:3%;
+    right:3%;
+    font-family: 'KCC-Hanbit';
+}
+body{
+    background-color:ivory !important;
+    align-items: center;
+}
